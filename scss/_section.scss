@@ -1,0 +1,95 @@
+.section {
+	.img {
+		background-image: url("../img/section-img.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	&.h-670 {
+		@media screen and (min-width: 1200px) {
+			height: 670px;
+		}
+	}
+	&.alternate {
+		background-color: $light_grey;
+	}
+
+	&.below-fold {
+		@media screen and (max-width: 991px) {
+			flex-direction: column-reverse;
+		}
+	}
+	.article {
+		@media screen and (min-width: 1200px) {
+			padding-left: 75px;
+		}
+		.lead {
+			font-size: 13px;
+			color: $yellow;
+		}
+		.h2 {
+			font-size: 42px;
+			margin-bottom: 15px;
+		}
+		.h3 {
+			font-size: 32px;
+		}
+		.text-light-grey {
+			color: #777777;
+		}
+	}
+	.testimonials {
+		@media screen and (min-width: 768px) {
+			width: 600px;
+		}
+		@media screen and (min-width: 1200px) {
+			height: 600px;
+			padding: 115px 0;
+		}
+		padding: 70px 0;
+		.btn {
+			@media screen and (min-width: 1200px) {
+				width: 420px;
+			}
+			width: 280px;
+			margin-top: 45px;
+		}
+	}
+	.carousel-control-prev {
+		@media screen and (min-width: 768px) {
+			top: 40%;
+		}
+		@media screen and (min-width: 1200px) {
+	    	left: -45%;
+		}
+		@media screen and (max-width: 1199px) {
+			left: -10%;
+		}
+	    .carousel-control-prev-icon {
+	    	background-image: url('../img/arrow.svg');
+	    	transform: rotate(180deg);
+	    	width: 70px;
+	    	height: 70px;
+	    }
+	}
+	.carousel-control-next {
+		@media screen and (min-width: 768px) {
+			top: 40%;
+		}
+		@media screen and (min-width: 1200px) {
+	    	right: -45%;
+		}
+		@media screen and (max-width: 1199px) {
+			right: -10%;
+		}
+	   	.carousel-control-next-icon {
+	    	background-image: url('../img/arrow.svg');
+	    	width: 70px;
+	    	height: 70px;
+	    }
+	}
+
+	&.gallery {
+		margin-bottom: 100px;
+	}
+}

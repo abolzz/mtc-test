@@ -1,0 +1,133 @@
+.header {
+	max-height: 900px;
+
+	.jumbotron {
+		padding-bottom: 17.5%;
+
+		.carousel {
+			top: 0;
+		    img {
+		    	max-width: 100%;
+				@media screen and (max-width: 1199px) {
+					height: auto;
+				}
+		    }
+		    .carousel-indicators {
+		    	li {
+				    width: 50px;
+				    height: 5px;
+			    	&.active {
+			    		background-color: $yellow;
+			    	}
+		    	}
+		    }
+		}
+	}
+
+	.navbar {
+		padding-top: 30px;
+		transform: translate(-50%,-50%);
+		top: 50px;
+		left: 50%;
+		@media screen and (max-width: 1199px) {
+			padding: 0;
+			z-index: 2;
+			.navbar-brand,
+			.navbar-toggler {
+				padding: 20px;
+			}
+
+		}
+	}
+	.nav-link:hover {
+		text-decoration: underline;
+	}
+
+	.nav-link,
+	.lead {
+		color: $white;
+		font-size: 13px;
+	}
+
+	.social-links {
+		width: 195px;
+	}
+
+	.main-links {
+		padding: 10px 60px 0;
+		.nav-link:first-child {
+			display: none;
+		}
+	}
+
+	@media screen and (max-width: 1199px) {
+		.navbar-collapse.show {
+			.navbar-nav {
+				left: 0;
+			}
+		}
+	}
+
+	.navbar-nav {
+		width: 1300px;
+		padding-bottom: 30px;
+		border-bottom: 1px solid rgba(255, 255, 255, .5);
+
+		@media screen and (max-width: 1199px) {
+			position: absolute;
+		    background-color: black;
+		    width: 50vw;
+		    left: -100vw;
+		    padding-left: 20px;
+		    z-index: 3;
+		    top: 0;
+		    transition: all 0.3s ease;
+		    padding-top: 30px;	
+		}
+
+		.navbar-brand {
+			&.nav-link {
+				padding: 0 160px;
+				@media screen and (max-width: 1350px) {
+					padding: 0 80px;
+				}
+			}
+		}
+
+		 > .nav-link:nth-of-type(1) {
+			display: none;
+		}
+	}
+
+	.intro-text {
+		z-index: 2;
+		transform: translate(-50%,-50%);
+		top: 60%;
+		left: 50%;
+		@media screen and (max-width: 1199px) {
+			z-index: 1;
+		}
+		.h1 {
+			@media screen and (max-width: 767px) {
+				font-size: 28px;
+			}
+			@media screen and (min-width: 768px) {
+				font-size: 40px;
+			}
+			@media screen and (min-width: 1200px) {
+				font-size: 52px;
+			}
+			margin-bottom: 30px;
+			font-weight: 400;
+			letter-spacing: 0;
+		}
+		.lead,
+		.btn {
+			letter-spacing: 3px;
+		}
+		.h1,
+		.lead {
+			text-shadow: 3px 3px 10px #00000080;
+		}
+	}
+}

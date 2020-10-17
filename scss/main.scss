@@ -1,0 +1,37 @@
+// General style rules
+
+// Variables
+
+// Colors
+$dark_grey: #222222;
+$white: #ffffff;
+$grey: #777777;
+$light_grey: #eeeeee;
+$success: #86CB19;
+$yellow: #D4B254;
+
+$transition: all 0.3s ease-in-out 0s;
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: $grey;
+	line-height: 1.5;
+	font-weight: 300;
+}
+
+// Imports
+@import 'header';
+@import 'section';
+@import 'buttons';
+@import 'footer';
+
+// Reset
+* {
+	padding: 0;
+	margin: 0;
+}
+
+// Type
+.wide-letter {
+	letter-spacing: 2px;
+}

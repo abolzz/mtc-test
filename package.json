@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-concat": "latest",
+    "gulp-connect": "^5.5.0",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-connect-php7": "^1.0.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "latest",
+    "gulp-sequence": "^1.0.0",
+    "gulp-uglify": "latest",
+    "gulp-uglify-es": "^1.0.1",
+    "gulp-util": "latest"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglifycss": "^1.0.9",
+    "jquery": "^3.3.1",
+    "npm": "^5.8.0"
+  }
+}

@@ -1,0 +1,27 @@
+.btn {
+	&.btn-alt {
+		color: $white;
+		&:hover {
+			background-color: $white;
+			color: $grey;
+		}
+	}
+	&.btn-round {
+		border-radius: 50px;
+	}
+	&.btn-small {
+		height: 50px;
+		width: 195px;
+	}
+	&.btn-large {
+		height: 58px;
+		width: 225px;
+	}
+	&.btn-main {
+		background-color: $yellow;
+		border-color: $yellow;
+		&:hover {
+			background-color: #C8A74B;
+		}
+	}
+}
