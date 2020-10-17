@@ -49,10 +49,10 @@
     		<section class="pt-5 section text-center gallery">
     				<h3 class="h3 m-5">Customer Gallery</h3>
     				<div class="d-flex justify-content-center col-md-8 mx-auto mb-5 flex-wrap">
-	    				<img src="../img/gallery1.jpg" class="p-2 col-8 mx-auto col-md-6 col-lg-3">
-	    				<img src="../img/gallery2.jpg" class="p-2 col-8 mx-auto col-md-6 col-lg-3">
-	    				<img src="../img/gallery3.jpg" class="p-2 col-8 mx-auto col-md-6 col-lg-3">
-	    				<img src="../img/gallery4.jpg" class="p-2 col-8 mx-auto col-md-6 col-lg-3">
+	    				<img src="./img/gallery1.jpg" class="p-2 col-8 mx-auto col-md-6 col-lg-3">
+	    				<img src="./img/gallery2.jpg" class="p-2 col-8 mx-auto col-md-6 col-lg-3">
+	    				<img src="./img/gallery3.jpg" class="p-2 col-8 mx-auto col-md-6 col-lg-3">
+	    				<img src="./img/gallery4.jpg" class="p-2 col-8 mx-auto col-md-6 col-lg-3">
     				</div>
 				    <button type="button" class="btn btn-round btn-main text-white btn-small text-uppercase mx-auto d-block">View more</button>
     		</section>
