@@ -6,7 +6,7 @@
     	<main class="wrapper">
     		<section class="row m-0 section h-670 below-fold d-flex">
     			<div class="col-lg-6 col-md-12 img p-0"></div>
-    			<article class="col-lg-5 col-md-8 col-sm-12 mx-auto d-flex flex-column justify-content-center pr-0 article h-50 my-lg-auto my-3 my-lg-0 ml-lg-0">
+    			<article class="col-lg-5 col-md-8 col-sm-12 mx-auto d-flex flex-column justify-content-center pr-md-0 article h-50 my-lg-auto my-3 my-lg-0 ml-lg-0">
 	    			<p class="lead text-uppercase wide-letter mb-0">
 	    				Quality Craftmanship from build to delivery
 	    			</p>

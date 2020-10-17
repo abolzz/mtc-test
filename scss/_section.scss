@@ -4,6 +4,7 @@
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
+		min-height: 450px;
 	}
 	&.h-670 {
 		@media screen and (min-width: 1200px) {
@@ -22,6 +23,7 @@
 	.article {
 		@media screen and (min-width: 1200px) {
 			padding-left: 75px;
+			max-height: 450px;
 		}
 		.lead {
 			font-size: 13px;
@@ -39,6 +41,9 @@
 		}
 	}
 	.testimonials {
+		@media screen and (max-width: 992px) {
+			max-height: 450px;
+		}
 		@media screen and (min-width: 768px) {
 			width: 600px;
 		}
