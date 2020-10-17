@@ -10,7 +10,7 @@
 	    			<p class="lead text-uppercase wide-letter mb-0">
 	    				Quality Craftmanship from build to delivery
 	    			</p>
-	    			<h2 class="h2">Discover the beauty of a handmade kitchen</h2>
+	    			<h2 class="h2">Discover the beauty of a<br> handmade kitchen</h2>
 	    			<p class="mb-5 text-light-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget est sit amet sapien venenatis maximus vel in urna. Nam mauris arcu, feugiat in finibus vitae, sollicitudin id purus. Ut imperdiet, magna eu pharetra tincidunt, mauris purus ultrices.</p>
 	    			<button type="button" class="btn btn-round btn-main text-white btn-large text-uppercase">About us</button>
     			</article>
