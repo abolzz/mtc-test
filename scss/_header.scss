@@ -1,5 +1,4 @@
 .header {
-	max-height: 900px;
 
 	.jumbotron {
 		padding-bottom: 17.5%;
@@ -7,8 +6,8 @@
 		.carousel {
 			top: 0;
 		    img {
-		    	max-width: 100%;
-				@media screen and (max-width: 1199px) {
+		    	width: 100vw;
+		    	@media screen and (max-width: 1199px) {
 					height: auto;
 				}
 		    }
